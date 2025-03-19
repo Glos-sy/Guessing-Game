@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    width: 70%;
+    background-color: #f8cfc3;
+    border-radius: 2rem;
+    padding: 6rem;
+    box-shadow: 0 1.5rem 3.5rem rgba(202, 139, 122, 0.5);
+    margin: 1.5rem 0 7rem;
+}
+
+main {
+    width: 60%;
+}
