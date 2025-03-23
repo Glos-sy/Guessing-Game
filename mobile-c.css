@@ -6,14 +6,59 @@
 }
 
 header {
-    width: 80%;
+    width: 85%;
     background-color: #f8cfc3;
     border-radius: 2rem;
-    padding: 4rem 5rem;
+    padding: 2rem 5rem;
     box-shadow: 0 1.5rem 3.5rem rgba(202, 139, 122, 0.5);
     margin: 1.5rem 0 7rem;
+    height: 41rem;
 }
 
 main {
-    width: 60%;
+    width: 77%;
+    padding: 1.5rem 3.5rem;
+}
+
+/* ELEMENTS */
+h1 {
+    font-size: 3.2rem;
+    color: #261610;
+}
+
+.number {
+    background-color: #fef8f8;
+    font-size: 7rem;
+    border-radius: 3.5rem;
+    padding: 1.6rem 1rem 1rem 1rem;
+    width: 12rem;
+    height: 12rem;
+    margin: 4rem auto;
+}
+
+
+.btn {
+    border: none;
+    background-color:#fef8f8;
+    color: #261610;
+    font-size: 1.7rem;
+    padding: 1.2rem 2.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.between {
+    font-size: 1.6rem;
+    margin-top: 1.4rem;
+}
+
+.message {
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+input.guess {
+    font-size: 1rem;
+    padding: 1.5rem;
 }
